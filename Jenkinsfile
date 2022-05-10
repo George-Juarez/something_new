@@ -8,13 +8,6 @@ pipeline {
             echo 'hello from the trigger'
           }
         }
-
-        stage('') {
-          steps {
-            echo 'yoyo'
-          }
-        }
-
       }
     }
 
