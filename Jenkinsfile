@@ -9,6 +9,10 @@ pipeline {
         echo 'hello from the trigger'
       }
     }
-
+    stage('yelp'){
+      steps{
+        echo 'leaving yelp reviews helps'
+      }
+    }
   }
 }
